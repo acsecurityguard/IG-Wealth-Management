@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D019E2B921C018C400C56248 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D019E2B821C018C400C56248 /* AVFoundation.framework */; };
+		D019E2BB21C02AC100C56248 /* IncreaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E2BA21C02AC100C56248 /* IncreaseViewController.swift */; };
+		D019E2BD21C03A8600C56248 /* processingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019E2BC21C03A8600C56248 /* processingViewController.swift */; };
+		D0213D0921BF61F100F95275 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0213D0821BF61F100F95275 /* LogInViewController.swift */; };
+		D0213D0B21BFA03700F95275 /* AppTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0213D0A21BFA03700F95275 /* AppTabViewController.swift */; };
 		D06E7F6321B777DA0007E0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F6221B777DA0007E0E8 /* AppDelegate.swift */; };
-		D06E7F6521B777DA0007E0E8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F6421B777DA0007E0E8 /* FirstViewController.swift */; };
-		D06E7F6721B777DA0007E0E8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F6621B777DA0007E0E8 /* SecondViewController.swift */; };
+		D06E7F6721B777DA0007E0E8 /* AdvisorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F6621B777DA0007E0E8 /* AdvisorsViewController.swift */; };
 		D06E7F6A21B777DA0007E0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E7F6821B777DA0007E0E8 /* Main.storyboard */; };
 		D06E7F6C21B777DB0007E0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06E7F6B21B777DB0007E0E8 /* Assets.xcassets */; };
 		D06E7F6F21B777DB0007E0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E7F6D21B777DB0007E0E8 /* LaunchScreen.storyboard */; };
 		D06E7F7A21B777DB0007E0E8 /* IQ_Wealth_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F7921B777DB0007E0E8 /* IQ_Wealth_ManagementTests.swift */; };
 		D06E7F8521B777DB0007E0E8 /* IQ_Wealth_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F8421B777DB0007E0E8 /* IQ_Wealth_ManagementUITests.swift */; };
+		D06E7F9521B779590007E0E8 /* IGWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F9421B779590007E0E8 /* IGWebViewViewController.swift */; };
+		D06E7F9721BA2CB20007E0E8 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E7F9621BA2CB20007E0E8 /* InvestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +41,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D06E7F5F21B777DA0007E0E8 /* IQ Wealth Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQ Wealth Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D019E2B821C018C400C56248 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D019E2BA21C02AC100C56248 /* IncreaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseViewController.swift; sourceTree = "<group>"; };
+		D019E2BC21C03A8600C56248 /* processingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processingViewController.swift; sourceTree = "<group>"; };
+		D0213D0821BF61F100F95275 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D0213D0A21BFA03700F95275 /* AppTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabViewController.swift; sourceTree = "<group>"; };
+		D06E7F5F21B777DA0007E0E8 /* IG Wealth Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IG Wealth Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E7F6221B777DA0007E0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D06E7F6421B777DA0007E0E8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D06E7F6621B777DA0007E0E8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D06E7F6621B777DA0007E0E8 /* AdvisorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorsViewController.swift; sourceTree = "<group>"; };
 		D06E7F6921B777DA0007E0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D06E7F6B21B777DB0007E0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06E7F6E21B777DB0007E0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D06E7F7021B777DB0007E0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D06E7F7521B777DB0007E0E8 /* IQ Wealth ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IQ Wealth ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E7F7521B777DB0007E0E8 /* IG Wealth ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IG Wealth ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E7F7921B777DB0007E0E8 /* IQ_Wealth_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ_Wealth_ManagementTests.swift; sourceTree = "<group>"; };
 		D06E7F7B21B777DB0007E0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D06E7F8021B777DB0007E0E8 /* IQ Wealth ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IQ Wealth ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E7F8021B777DB0007E0E8 /* IG Wealth ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IG Wealth ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E7F8421B777DB0007E0E8 /* IQ_Wealth_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ_Wealth_ManagementUITests.swift; sourceTree = "<group>"; };
 		D06E7F8621B777DB0007E0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06E7F9421B779590007E0E8 /* IGWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGWebViewViewController.swift; sourceTree = "<group>"; };
+		D06E7F9621BA2CB20007E0E8 /* InvestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D019E2B921C018C400C56248 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,22 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D019E2B721C018C300C56248 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D019E2B821C018C400C56248 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D06E7F5621B777DA0007E0E8 = {
 			isa = PBXGroup;
 			children = (
+				D019E2BC21C03A8600C56248 /* processingViewController.swift */,
 				D06E7F6121B777DA0007E0E8 /* IQ Wealth Management */,
 				D06E7F7821B777DB0007E0E8 /* IQ Wealth ManagementTests */,
 				D06E7F8321B777DB0007E0E8 /* IQ Wealth ManagementUITests */,
 				D06E7F6021B777DA0007E0E8 /* Products */,
+				D019E2B721C018C300C56248 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D06E7F6021B777DA0007E0E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D06E7F5F21B777DA0007E0E8 /* IQ Wealth Management.app */,
-				D06E7F7521B777DB0007E0E8 /* IQ Wealth ManagementTests.xctest */,
-				D06E7F8021B777DB0007E0E8 /* IQ Wealth ManagementUITests.xctest */,
+				D06E7F5F21B777DA0007E0E8 /* IG Wealth Management.app */,
+				D06E7F7521B777DB0007E0E8 /* IG Wealth ManagementTests.xctest */,
+				D06E7F8021B777DB0007E0E8 /* IG Wealth ManagementUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +123,13 @@
 			isa = PBXGroup;
 			children = (
 				D06E7F6221B777DA0007E0E8 /* AppDelegate.swift */,
-				D06E7F6421B777DA0007E0E8 /* FirstViewController.swift */,
-				D06E7F6621B777DA0007E0E8 /* SecondViewController.swift */,
+				D06E7F6621B777DA0007E0E8 /* AdvisorsViewController.swift */,
+				D019E2BA21C02AC100C56248 /* IncreaseViewController.swift */,
 				D06E7F6821B777DA0007E0E8 /* Main.storyboard */,
+				D0213D0821BF61F100F95275 /* LogInViewController.swift */,
+				D0213D0A21BFA03700F95275 /* AppTabViewController.swift */,
+				D06E7F9621BA2CB20007E0E8 /* InvestViewController.swift */,
+				D06E7F9421B779590007E0E8 /* IGWebViewViewController.swift */,
 				D06E7F6B21B777DB0007E0E8 /* Assets.xcassets */,
 				D06E7F6D21B777DB0007E0E8 /* LaunchScreen.storyboard */,
 				D06E7F7021B777DB0007E0E8 /* Info.plist */,
@@ -131,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D06E7F5E21B777DA0007E0E8 /* IQ Wealth Management */ = {
+		D06E7F5E21B777DA0007E0E8 /* IG Wealth Management */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D06E7F8921B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IQ Wealth Management" */;
+			buildConfigurationList = D06E7F8921B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IG Wealth Management" */;
 			buildPhases = (
 				D06E7F5B21B777DA0007E0E8 /* Sources */,
 				D06E7F5C21B777DA0007E0E8 /* Frameworks */,
@@ -143,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = "IQ Wealth Management";
+			name = "IG Wealth Management";
 			productName = "IQ Wealth Management";
-			productReference = D06E7F5F21B777DA0007E0E8 /* IQ Wealth Management.app */;
+			productReference = D06E7F5F21B777DA0007E0E8 /* IG Wealth Management.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D06E7F7421B777DB0007E0E8 /* IQ Wealth ManagementTests */ = {
+		D06E7F7421B777DB0007E0E8 /* IG Wealth ManagementTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D06E7F8C21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IQ Wealth ManagementTests" */;
+			buildConfigurationList = D06E7F8C21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IG Wealth ManagementTests" */;
 			buildPhases = (
 				D06E7F7121B777DB0007E0E8 /* Sources */,
 				D06E7F7221B777DB0007E0E8 /* Frameworks */,
@@ -161,14 +188,14 @@
 			dependencies = (
 				D06E7F7721B777DB0007E0E8 /* PBXTargetDependency */,
 			);
-			name = "IQ Wealth ManagementTests";
+			name = "IG Wealth ManagementTests";
 			productName = "IQ Wealth ManagementTests";
-			productReference = D06E7F7521B777DB0007E0E8 /* IQ Wealth ManagementTests.xctest */;
+			productReference = D06E7F7521B777DB0007E0E8 /* IG Wealth ManagementTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D06E7F7F21B777DB0007E0E8 /* IQ Wealth ManagementUITests */ = {
+		D06E7F7F21B777DB0007E0E8 /* IG Wealth ManagementUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D06E7F8F21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IQ Wealth ManagementUITests" */;
+			buildConfigurationList = D06E7F8F21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IG Wealth ManagementUITests" */;
 			buildPhases = (
 				D06E7F7C21B777DB0007E0E8 /* Sources */,
 				D06E7F7D21B777DB0007E0E8 /* Frameworks */,
@@ -179,9 +206,9 @@
 			dependencies = (
 				D06E7F8221B777DB0007E0E8 /* PBXTargetDependency */,
 			);
-			name = "IQ Wealth ManagementUITests";
+			name = "IG Wealth ManagementUITests";
 			productName = "IQ Wealth ManagementUITests";
-			productReference = D06E7F8021B777DB0007E0E8 /* IQ Wealth ManagementUITests.xctest */;
+			productReference = D06E7F8021B777DB0007E0E8 /* IG Wealth ManagementUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D06E7F5A21B777DA0007E0E8 /* Build configuration list for PBXProject "IQ Wealth Management" */;
+			buildConfigurationList = D06E7F5A21B777DA0007E0E8 /* Build configuration list for PBXProject "IG Wealth Management" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D06E7F5E21B777DA0007E0E8 /* IQ Wealth Management */,
-				D06E7F7421B777DB0007E0E8 /* IQ Wealth ManagementTests */,
-				D06E7F7F21B777DB0007E0E8 /* IQ Wealth ManagementUITests */,
+				D06E7F5E21B777DA0007E0E8 /* IG Wealth Management */,
+				D06E7F7421B777DB0007E0E8 /* IG Wealth ManagementTests */,
+				D06E7F7F21B777DB0007E0E8 /* IG Wealth ManagementUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,9 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06E7F6721B777DA0007E0E8 /* SecondViewController.swift in Sources */,
+				D019E2BB21C02AC100C56248 /* IncreaseViewController.swift in Sources */,
+				D06E7F9521B779590007E0E8 /* IGWebViewViewController.swift in Sources */,
+				D06E7F6721B777DA0007E0E8 /* AdvisorsViewController.swift in Sources */,
+				D0213D0B21BFA03700F95275 /* AppTabViewController.swift in Sources */,
+				D0213D0921BF61F100F95275 /* LogInViewController.swift in Sources */,
 				D06E7F6321B777DA0007E0E8 /* AppDelegate.swift in Sources */,
-				D06E7F6521B777DA0007E0E8 /* FirstViewController.swift in Sources */,
+				D06E7F9721BA2CB20007E0E8 /* InvestViewController.swift in Sources */,
+				D019E2BD21C03A8600C56248 /* processingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +318,12 @@
 /* Begin PBXTargetDependency section */
 		D06E7F7721B777DB0007E0E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D06E7F5E21B777DA0007E0E8 /* IQ Wealth Management */;
+			target = D06E7F5E21B777DA0007E0E8 /* IG Wealth Management */;
 			targetProxy = D06E7F7621B777DB0007E0E8 /* PBXContainerItemProxy */;
 		};
 		D06E7F8221B777DB0007E0E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D06E7F5E21B777DA0007E0E8 /* IQ Wealth Management */;
+			target = D06E7F5E21B777DA0007E0E8 /* IG Wealth Management */;
 			targetProxy = D06E7F8121B777DB0007E0E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8N9SF2TWR;
 				INFOPLIST_FILE = "IQ Wealth Management/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8N9SF2TWR;
 				INFOPLIST_FILE = "IQ Wealth Management/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQ Wealth Management.app/IQ Wealth Management";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IG Wealth Management.app/IG Wealth Management";
 			};
 			name = Debug;
 		};
@@ -502,7 +536,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQ Wealth Management.app/IQ Wealth Management";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IG Wealth Management.app/IG Wealth Management";
 			};
 			name = Release;
 		};
@@ -547,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D06E7F5A21B777DA0007E0E8 /* Build configuration list for PBXProject "IQ Wealth Management" */ = {
+		D06E7F5A21B777DA0007E0E8 /* Build configuration list for PBXProject "IG Wealth Management" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D06E7F8721B777DB0007E0E8 /* Debug */,
@@ -556,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D06E7F8921B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IQ Wealth Management" */ = {
+		D06E7F8921B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IG Wealth Management" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D06E7F8A21B777DB0007E0E8 /* Debug */,
@@ -565,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D06E7F8C21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IQ Wealth ManagementTests" */ = {
+		D06E7F8C21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IG Wealth ManagementTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D06E7F8D21B777DB0007E0E8 /* Debug */,
@@ -574,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D06E7F8F21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IQ Wealth ManagementUITests" */ = {
+		D06E7F8F21B777DB0007E0E8 /* Build configuration list for PBXNativeTarget "IG Wealth ManagementUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D06E7F9021B777DB0007E0E8 /* Debug */,
