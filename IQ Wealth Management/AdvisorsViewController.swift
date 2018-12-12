@@ -80,7 +80,7 @@ class AdvisorsViewController: UIViewController, SFSpeechRecognizerDelegate {
         if(questionText.text!.contains("total")){
               utterance = AVSpeechUtterance(string: "... Your life time contributions at I.G Wealth Management is 47800 dollars")
             answerLabel.text = "Your life time contributions at IG Wealth Management is CAD 47,800.00"
-        } else if(questionText.text!.contains("estimated")){
+        } else if(questionText.text!.contains("estimated")||questionText.text!.contains("estimate")){
             utterance = AVSpeechUtterance(string: "... Your estimated life time contributions in this account at I.G Wealth Management after this one time contribution will be 52800 dollars ")
             answerLabel.text = "Your estimated life time contributions in this account at IG Wealth Management after this one time contribution will be CAD 52,800.00"
         }else if(questionText.text!.contains("Sterling")){
@@ -91,8 +91,8 @@ class AdvisorsViewController: UIViewController, SFSpeechRecognizerDelegate {
             recordButton.isHidden = true
             utterance = AVSpeechUtterance(string: "... I am more than happy to help!")
         }  else {
-            utterance = AVSpeechUtterance(string: "... That is above my pay grade")
-            answerLabel.text = "That is above my pay grade"
+            utterance = AVSpeechUtterance(string: "Sorry, That is above my pay grade")
+            answerLabel.text = "Sorry, that is above my pay grade"
         }
         
         utterance.volume = 1;

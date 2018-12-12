@@ -12,6 +12,9 @@ class AppTabViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        UITabBar.appearance().unselectedItemTintColor = UIColor.darkGray
+        
+
 
     }
     

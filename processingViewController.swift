@@ -18,7 +18,7 @@ class processingViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        var utterance = AVSpeechUtterance(string: "... You are all done!")
+        var utterance = AVSpeechUtterance(string: "... Your estimated life time contributions in this account at I.G Wealth Management after this one time contribution will be 52800 dollars ")
         utterance.volume = 1;
         let synthesizer = AVSpeechSynthesizer()
         synthesizer.speak(utterance)

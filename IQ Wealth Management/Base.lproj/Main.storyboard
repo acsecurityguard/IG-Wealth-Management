@@ -12,7 +12,7 @@
         <!--My Account-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="IGWebViewViewController" customModule="IQ_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="IGWebViewViewController" customModule="IG_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="697"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,8 +153,8 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.32267231729655971" green="0.95061528497409331" blue="0.88743065016073186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You currently don't have an linked account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jxd-sc-JOT">
-                                        <rect key="frame" x="50" y="474" width="237" height="15"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You currently don't have a linked account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jxd-sc-JOT">
+                                        <rect key="frame" x="50" y="474" width="230" height="15"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                         <nil key="textColor"/>
@@ -194,8 +194,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XVk-eI-fEa"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Account" image="first" id="acW-dT-cKf">
-                        <color key="badgeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <tabBarItem key="tabBarItem" title="My Account" image="bar-chart (1)" id="acW-dT-cKf">
+                        <color key="badgeColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                     <size key="freeformSize" width="375" height="780"/>
                     <connections>
@@ -206,10 +206,10 @@
             </objects>
             <point key="canvasLocation" x="566" y="-692"/>
         </scene>
-        <!--Trending-->
+        <!--News-->
         <scene sceneID="Yqg-tP-YjG">
             <objects>
-                <viewController id="h6e-6a-blw" customClass="InvestViewController" customModule="IQ_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="h6e-6a-blw" customClass="InvestViewController" customModule="IG_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uHx-9a-2MA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -228,10 +228,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TRENDING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYQ-0j-onT">
-                                <rect key="frame" x="0.0" y="17" width="375" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYQ-0j-onT">
+                                <rect key="frame" x="0.0" y="9" width="375" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="20"/>
@@ -240,7 +240,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ceo-vO-wM2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Trending" image="first" id="ykD-g2-Dh1"/>
+                    <tabBarItem key="tabBarItem" title="News" image="newspaper-folded" id="ykD-g2-Dh1">
+                        <color key="badgeColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="trendingview" destination="6B0-8i-24Q" id="iQa-Sb-QPI"/>
                     </connections>
@@ -252,7 +254,7 @@
         <!--Advisor-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="AdvisorsViewController" customModule="IQ_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="AdvisorsViewController" customModule="IG_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,11 +283,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="twc-sN-gbD">
-                                <rect key="frame" x="18" y="199" width="338" height="128"/>
+                                <rect key="frame" x="16" y="199" width="343" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <color key="textColor" red="0.51307134970000001" green="0.67015476289999998" blue="0.80233970210000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0eP-kW-c1Q">
@@ -328,20 +330,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuy-SK-N8U">
-                                        <rect key="frame" x="198" y="179" width="0.0" height="0.0"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQq-HQ-LUa">
-                                        <rect key="frame" x="166" y="276" width="0.0" height="0.0"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vpS-cx-fZM">
                                         <rect key="frame" x="18" y="335" width="338" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -361,7 +349,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                        <state key="normal" title="Request!">
+                                        <state key="normal" title="Submit!">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -388,7 +376,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PUC-Ie-Q75"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Advisor" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Advisor" image="igtab" id="cPa-gy-q4n">
+                        <color key="badgeColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="answerLabel" destination="twc-sN-gbD" id="QT2-cb-0RF"/>
                         <outlet property="increaseView" destination="USb-Sb-74z" id="miE-xN-6bc"/>
@@ -405,7 +395,7 @@
         <!--Processing View Controller-->
         <scene sceneID="Uhr-Ip-zNg">
             <objects>
-                <viewController id="7FS-K5-qnf" customClass="processingViewController" customModule="IQ_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7FS-K5-qnf" customClass="processingViewController" customModule="IG_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BVT-L7-aOi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -474,7 +464,7 @@
         <!--Log In View Controller-->
         <scene sceneID="zVu-no-VNy">
             <objects>
-                <viewController id="3Gz-fX-phx" customClass="LogInViewController" customModule="IQ_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3Gz-fX-phx" customClass="LogInViewController" customModule="IG_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r12-8m-zDw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -573,11 +563,10 @@
         <!--App Tab View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController storyboardIdentifier="AppTabViewController" id="49e-Tb-3d3" customClass="AppTabViewController" customModule="IQ_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="AppTabViewController" id="49e-Tb-3d3" customClass="AppTabViewController" customModule="IG_Wealth_Management" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" translucent="NO" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" red="0.017312105750000001" green="0.088748537000000002" blue="0.15294873710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -598,8 +587,9 @@
         <image name="Image-3" width="1536" height="480"/>
         <image name="Image-5" width="204.80000305175781" height="204.80000305175781"/>
         <image name="Image-6" width="2350" height="2370"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="bar-chart (1)" width="19.200000762939453" height="19.200000762939453"/>
+        <image name="igtab" width="25" height="21"/>
+        <image name="newspaper-folded" width="19.200000762939453" height="19.200000762939453"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hnP-ff-Qr1"/>
